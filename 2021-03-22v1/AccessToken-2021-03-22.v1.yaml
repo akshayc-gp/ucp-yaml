@@ -58,58 +58,6 @@ paths:
           description: Sandbox Environment
         - url: 'https://apis.globalpay.com/ucp'
           description: Production Environment
-      x-gp-partner-permissions-enum:
-        - MER_TRN
-        - MER_TRN_POST_Refund_Standalone
-        - MER_TRN_POST_Force
-        - MER_VER
-        - MER_BAT
-        - MER_INS
-        - MER_PMT
-        - MER_PMT_POST_Detokenize
-        - MER_PMT_SINGLE_USE
-        - MER_ACT
-        - MER_ACT_GET_Single_Logs
-        - MER_ACT_POST_Multiple
-        - MER_DEV
-        - MER_GET_Single
-        - MER_GET_List
-        - MER_ACC
-        - MER_CCS
-        - MER_ACC_GET_Single_Platform
-        - MER_AUT
-        - ACC_GET_Single
-        - ACC_GET_List
-        - GET_Single
-        - ACC_GET_Single_Platform
-        - ACT_GET_Single
-        - ACT_GET_List
-        - ACT_GET_Single_Logs
-        - ACT_POST_Multiple
-        - MER_APP
-        - APP_GET_Single
-        - APP_GET_List
-        - MER_PFC
-        - MER_POST_Create
-        - PFC_PATCH_Edit
-        - MER_PATCH_Edit
-        - PFC_GET_Single
-        - PFC_GET_List
-        - APP_GET_Single_Key
-        - MER_APP_GET_Single_Key
-        - MER_ACC_POST_Create
-        - MER_ACC_PATCH_Edit
-        - MER_RAS
-        - ACT_POST_Auto_Action
-        - MER_TRF
-        - MER_LNK
-        - MER_FND
-        - MER_TRN_GET_Platform_References
-        - MER_BIN
-        - MER_HLD
-        - MER_REL
-        - MER_DOC
-        - MER_DEC
 tags:
   - name: Create Access Token
     description: Authenticate using app credentials to use GP API.
@@ -299,6 +247,58 @@ components:
           - AUT_POST_Check_Availability
       example:
         - TRN_POST_Authorize
+      x-gp-partner-permissions-enum:
+        - MER_TRN
+        - MER_TRN_POST_Refund_Standalone
+        - MER_TRN_POST_Force
+        - MER_VER
+        - MER_BAT
+        - MER_INS
+        - MER_PMT
+        - MER_PMT_POST_Detokenize
+        - MER_PMT_SINGLE_USE
+        - MER_ACT
+        - MER_ACT_GET_Single_Logs
+        - MER_ACT_POST_Multiple
+        - MER_DEV
+        - MER_GET_Single
+        - MER_GET_List
+        - MER_ACC
+        - MER_CCS
+        - MER_ACC_GET_Single_Platform
+        - MER_AUT
+        - ACC_GET_Single
+        - ACC_GET_List
+        - GET_Single
+        - ACC_GET_Single_Platform
+        - ACT_GET_Single
+        - ACT_GET_List
+        - ACT_GET_Single_Logs
+        - ACT_POST_Multiple
+        - MER_APP
+        - APP_GET_Single
+        - APP_GET_List
+        - MER_PFC
+        - MER_POST_Create
+        - PFC_PATCH_Edit
+        - MER_PATCH_Edit
+        - PFC_GET_Single
+        - PFC_GET_List
+        - APP_GET_Single_Key
+        - MER_APP_GET_Single_Key
+        - MER_ACC_POST_Create
+        - MER_ACC_PATCH_Edit
+        - MER_RAS
+        - ACT_POST_Auto_Action
+        - MER_TRF
+        - MER_LNK
+        - MER_FND
+        - MER_TRN_GET_Platform_References
+        - MER_BIN
+        - MER_HLD
+        - MER_REL
+        - MER_DOC
+        - MER_DEC
     response:
       type: object
       properties:
