@@ -1,3 +1,12 @@
+# 2026-08-07
+## UPDATED
+### Transactions
+- Added KONEK - Partial Shipment request example.
+- Added response header definitions across updated transaction responses.
+- Updated id path parameter descriptions for refund and reversal endpoints.
+- Changed id path parameter schemas to inline type string for updated endpoints.
+- Fixed typo in total_record_count description (resoures -> resources).
+
 # 2026-07-23
 ## UPDATED
 ### Access Token
