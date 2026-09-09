@@ -7,7 +7,7 @@ info:
     name: API Integrations
     url: 'https://developer.globalpay.com/?gp-api=true'
     email: api.integrations@globalpay.com
-  x-gp-yaml-file-version: 1.6
+  x-gp-yaml-file-version: 1.7
 servers:
   - url: 'https://apis.sandbox.globalpay.com/ucp'
     description: Sandbox Environment
@@ -1251,9 +1251,9 @@ paths:
       tags:
         - Get a Transaction
       summary: |
-        Get a single view of a transaction using the transaction id.
+        Get a single view of a transaction or verification using its transaction or verification ID.
       description: |-
-        Get a single view of a transaction using the transaction id.
+        Get a single view of a transaction or verification using its transaction or verification ID.
         Availability of this feature in production depends on your allowed live configuration. 
         Please contact Global Payments before coding this feature to confirm it will be available to you when you go live.
       operationId: getSingleSaleOrRefundTransaction
