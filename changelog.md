@@ -1,3 +1,8 @@
+# 2026-09-09
+## UPDATED
+### [v. 1.7] | Transactions | GET Single
+- Update description for Get Single view of a transaction
+
 # 2026-08-07
 ## UPDATED
 ### Transactions
